@@ -1,8 +1,6 @@
 # Titanic-Survival-Prediction
 
-1. The dataset is loaded directly from a public Google Sheets CSV link and contains information about Titanic passengers such as:
-
-PassengerId
+1. The dataset is loaded directly from a public Google Sheets CSV link and selected relevant feature  and target variable about Titanic passengers such as:
 
 Pclass
 
@@ -23,7 +21,7 @@ Survived (target)
 
 2. Features
 Data Cleaning: Handles missing values in Age and Fare.
-Encoding: Converts categorical variables like Sex and Embarked into the numerical format.
+Encoding: Converts categorical variables like Sex and Embarked into a numerical format.
 Feature Scaling: Normalizes the data using StandardScaler.
 Model: Uses KNeighborsClassifier from sklearn for prediction.
 Evaluation: Computes accuracy and precision on the test set.
@@ -34,8 +32,8 @@ Evaluation: Computes accuracy and precision on the test set.
 Model Performance
 
 Model Used: K-Nearest Neighbors (k=3)
-Accuracy: ~97%
-Precision: ~97% (Weighted)
+Accuracy: 98.80%
+Precision: 98.83% (Weighted)
 
 
 
