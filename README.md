@@ -2,19 +2,19 @@
 
 1. The dataset is loaded directly from a public Google Sheets CSV link and selected relevant feature  and target variable about Titanic passengers such as:
 
-Pclass
+Pclass- Socio-economic class (1st, 2nd, 3rd) is highly predictive.
 
-Sex
+Sex-Gender is very important (e.g., more women survived).
 
-Age
+Age- Children were more likely to survive; they needed handling for missing values.
 
-SibSp
+SibSp- indicates family on board; impacts survival (somewhat correlated with Age)
 
-Parch
+Parch-Like SibSp — more family = possibly better survival or group effect
 
-Fare
+Fare- Can indicate wealth/class; moderately useful.
 
-Embarked
+Embarked- Weak predictor alone, but still helps a bit (C, Q, S had different survival rates)
 
 Survived (target)
 
