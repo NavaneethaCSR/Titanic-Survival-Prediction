@@ -39,6 +39,7 @@ Precision: ~97% (Weighted)
 
 
 
-How to run
+How to run: 
+
 This script is optimized for use in Google Colab (uses drive.mount). You may remove or comment out the drive.mount line , if you're running locally
 Go to the Runtime section and run all 
