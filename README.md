@@ -39,5 +39,7 @@ Precision: 98.83% (Weighted)
 
 How to run: 
 
-This script is optimized for use in Google Colab (uses drive.mount). You may remove or comment out the drive.mount line , if you're running locally
-Go to the Runtime section and run all 
+This script is optimized for use in Google Colab,so upload the dataset and  uses drive.mount. 
+Go to the Runtime section and run all
+You may remove or comment out the drive.mount line , if you're running locally
+ 
