@@ -46,7 +46,7 @@ df1['Embarked'] = LabelEncoder().fit_transform(df1['Embarked'])  # label Q,S,C w
 
 """# Extract relevant features and Target variable"""
 
-X = df1[['PassengerId', 'Pclass','Sex','Age','SibSp','Parch','Fare','Embarked']]      # Features
+X = df1[['Pclass','Sex','Age','SibSp','Parch','Fare','Embarked']]      # Features
 y = df1['Survived']            # Target variable
 
 """# Split the dataset into train and test"""
